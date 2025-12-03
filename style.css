@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.section {
+    min-height: 100vh; /* Ensure sections are tall enough to scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.blue-bg {
+    Background-size:cover;
+    background-image:url(https://koreajoongangdaily.joins.com/data/photo/2025/03/25/af4ac41f-fda8-4d69-a08b-d38eba126215.jpg)
+}
+
+
+.green-bg {
+    background-size:cover;
+    background-image:url(https://kpopping.com/documents/38/4/Behind-Cut-ILLIT-jellyous-MV-Sho-documents-4.jpeg)
+}
+
+.red-bg {
+    background-size:cover;
+    background-image:url(https://preview.redd.it/does-illits-latest-release-do-the-dance-have-any-liminal-v0-qs9q63qocf7f1.png?format=png&auto=webp&s=074bb39212b780eb2221de1cc0ec3c4cc4c0e3e3)
+}
+
+.yellow-bg {
+    background-size:cover;
+    background-image:url(https://phinf.wevpstatic.net/MjAyNDEwMjNfMjI0/MDAxNzI5NjUwMDY0NzYz.m3RJHq4SU24XREmJlGe1baFn_463WP4yLFZbHi1_WoUg.8Ywb0p-Nqt76zjr8lxDQa_DZhoWQ3gzd_aYeKajm_VAg.JPEG/b3c3db30-5470-4b88-8d5e-b501eefcb585.jpeg)
+}
+    .orange-bg {
+    background-size:cover;
+    background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/ed/a8/28/eda828ba-dbf9-a616-e50d-01a22c4c2984/25UM1IM01093.crop.jpg/1912x1072mv.jpg)
+}
+ .purple-bg {
+    background-size:cover;
+    background-image:url(https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/39/ea/86/39ea860c-b402-ac58-08a0-a506af5dfec8/Job97673da3-9d56-4c8f-b470-9a79f12b00d1-209548635-PreviewImage_preview_image_129200_video_sdr-Time1763987424823.png/3690x2160mv.jpg)
+ }
+    
+    .grey-bg {
+    background-size:cover;
+    background-image:url(https://e.snmc.io/i/1200/s/8dfb6bb0b14280d4bfbcd942caedbf98/12277788)
+    
+}
+ .cool-bg {
+    background-size:cover;
+    background-image:url(https://i.redd.it/241115-illit-weverse-update-behind-cut-illit-%EC%95%84%EC%9D%BC%EB%A6%BF-tick-tack-v0-8fu36wvbw21e1.jpg?width=3000&format=pjpg&auto=webp&s=ea26ed80ebf67f3afd5680b196637a455fa786d3)
+    
+}
+.amazing-bg {
+    background-size:cover;
+    background-image:url(https://kpopping.com/documents/b2/2/ILLIT-1st-JAPANESE-SINGLE-shiyo-zhimare-CONCEPT-PHOTOS-documents-3.jpeg)
+    
+}
+
+    

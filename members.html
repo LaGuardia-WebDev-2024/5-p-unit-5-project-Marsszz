@@ -1,0 +1,219 @@
+<!-- Unit 5 Project
+Requirements
+[  ] <div> and <span>
+[  ] border:, margin:, and padding: 
+[  ] Three Images
+
+Select TWO Additional Features to Add  
+[ no ] Feature 1 - Flexbox
+[ no ] Feature 2 - Flip Card
+[ no ] Feature 3 - Animation
+[ no ] Feature 4 - Linear Gradient
+[ no ] Feature 5 - Use a .Gif
+[ no ] Feature 6 - Unique Border Styles
+-->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unit 5 Project</title>
+  <meta charset="utf-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Sunshiney&display=swap" rel="stylesheet">
+  <style>
+    body{
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='88' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='70%'>🌺</text></svg>") 16 0,auto; /*!emojicursor.app*/
+      background-image:url(https://i.pinimg.com/originals/d7/f4/c8/d7f4c81124cc52624bd34184793b4ce1.gif);
+  background-size:cover;
+  text-align: center;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+     color: white;
+
+    }
+    ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  width: 100%;
+}
+li{
+  display:inline;
+}
+li a{
+  text-decoration:dotted;
+  padding:10px;
+  background-color:rgba(240, 248, 255, 0.5);
+  color:white;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: rgb(255, 218, 218);
+}
+
+.flip-card-back {
+  background-image:url(https://i.pinimg.com/736x/be/45/14/be45147037d8a65699671b80ee9609b7.jpg);
+  color: rgb(255, 184, 211);
+  transform: rotateY(180deg);
+}
+.card-container{
+
+  display: flex;
+  justify-content: space-evenly;
+margin-top:5%;
+  
+}
+  </style>
+</head>
+<style>
+
+</style>
+<body>
+  <h1 style="font-family:Sunshiney; font-size:70px;">Members</h1>
+<ul>
+    <li><a href="index.html">Home!</a></li>
+  <li><a href="members.html">Members!</a></li>
+ <li><a href="songs.html">My favorite songs!</a></li>
+</style>
+ <div class="card-container">
+
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.pinimg.com/736x/25/bb/f0/25bbf0e54691aca2d62e1de31077e546.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-family:Sunshiney;">Minju</h1> 
+      <p style="font-family:Sunshiney;font-size:22px;">Stage Name: Minju (민주)
+Birth Name: Park Min-ju (박민주)
+Position(s): N/A
+Birthday: May 11th, 2004
+Height: 163 cm (5’4″)</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.pinimg.com/736x/85/25/84/852584c17cf41f20c6e12c990169e639.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-family:Sunshiney;">Moka</h1> 
+      <p style="font-family:Sunshiney;font-size:22px;">Stage Name: Moka (모카)
+Birth Name: Sakai Moka (さかい もか / 사카이 모카)
+Korean Name: Kim Mo-ka (김모카)
+Position(s): N/A
+Birthday: October 8th, 2004
+Height: 162 cm (5’4″)</p> 
+    </div>
+  </div>
+</div>
+</div>
+<div class="card-container">
+
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.pinimg.com/736x/65/62/31/65623162158edffa614a24b6743a1aaa.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-family:Sunshiney;">Wonhee</h1> 
+      <p style="font-family:Sunshiney;font-size:22px;">Stage Name: Wonhee (원희)
+Birth Name: Lee Won-hee (이원희)
+Position(s): N/A
+Birthday: June 26th, 2007
+Height: 162 cm (5’4″)</p> 
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.pinimg.com/736x/17/f7/c2/17f7c26b28f937ad76c527dc8867147c.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-family:Sunshiney;">Yunah</h1> 
+      <p style="font-family:Sunshiney;font-size:22px;">Stage Name: Yunah (윤아)
+Birth Name: Noh Yun-ah (노윤아)
+Position(s): N/A
+Birthday: January 15th, 2004
+Height: 168 cm (5’6″)</p> 
+    </div>
+  </div>
+</div>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.pinimg.com/1200x/41/74/8d/41748dd7f0c654d2014d88857cb9f479.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-family:Sunshiney;">Iroha</h1> 
+      <p style="font-family:Sunshiney;font-size:22px;">Stage Name: Iroha (이로하)
+Birth Name: Hokazono Iroha (外園 いろは / 호카조노 이로하)
+Position(s): Maknae
+Birthday: February 4th, 2008
+Height: 158 cm (5’2″)</p>
+    </div>
+  </div>
+</div>
+</div>
+   </div>
+</body>
+
+<ul>
+    <li><a href="index.html">Home!</a></li>
+  <li><a href="members.html">Members!</a></li>
+ <li><a href="Songs.html">My favorite songs!</a></li>
+ 
+
+</body>
+</html>
